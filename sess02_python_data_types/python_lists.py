@@ -76,3 +76,23 @@ print(f"After re-assignment, the new fruits list is: \n{fruits}")
 # Display the first 3 fruits in the list
 print(f"The first 3 fruits in the fruits list are: {fruits[:3]}")
 
+# Display the last 2 fruits in the list
+print(f"The last 2 fruits in the fruits list are: {fruits[-2:]}")
+
+# Display every 2nd fruit starting from the 2nd one in the fruit list
+print(f"Starting from the second fruit and skipping one fruit we get: \n{fruits[1::2]}")
+
+# Display the fruit list in reverse order without using the reverse() function
+print(f"The reversed list of fruits is: \n{fruits[::-1]}")
+
+# TODO: Display every 3rd fruit in the fruit list: individual assignment
+
+# Display all the fruits apart from the first and last one
+print(f"All the fruits in the list apart from the first and last one are: \n{fruits[1:-1]}")
+
+# Display the fruits in reverse order starting from the 3rd last fruit
+print(f"The fruits in reverse order starting from the 3rd last fruit are: \n{fruits[-3::-1]}")
+
+# Get and display an empty slice from the fruit list
+print(f"The empty slice from the fruit list is: \n{fruits[len(fruits)-1:3]}")
+
